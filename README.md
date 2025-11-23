@@ -4,6 +4,8 @@ Roshambo (Rock–Paper–Scissors) is a simple web-based game where the player c
 
 <img width="1920" height="884" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/bb052278-3d51-4b7b-8cb1-3eb0cbe85d6f" />
 
+The player chooses their move by clicking on the Rock, Paper, or Scissors image
+
 <img width="1920" height="886" alt="Screenshot (163)" src="https://github.com/user-attachments/assets/1f3f4725-b2a4-4470-9c34-cf5b23665571" />
 
 <img width="1920" height="876" alt="Screenshot (164)" src="https://github.com/user-attachments/assets/0a15629e-eb6f-4dae-a8ea-f0543a0ad538" />
