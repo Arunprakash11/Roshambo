@@ -1,6 +1,6 @@
 # Roshambo Game 
 
-Roshambo (Rock–Paper–Scissors) is a simple web-based game where the player chooses rock, paper, or scissors and competes against the computer. The computer randomly selects its move, and the app instantly displays the result (win, lose, or tie) along with the choices made. Click/Press R to play Rock, P to play Paper, or S to play Scissors. while keeping track of your score. You can also reset the score at any time.
+Roshambo (Rock–Paper–Scissors) is a simple web-based game where the player chooses rock, paper, or scissors and competes against the computer. The computer randomly selects its move, and the app instantly displays the result (win, lose, or tie) along with the choices made. Click/Press R to play Rock, P to play Paper, or S to play Scissors. while keeping track of your score. You can also reset the score at any time, and there’s also an auto-play mode that automatically plays rounds for you — using the same button, you can start and stop auto-play.
 
 <img width="1920" height="884" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/bb052278-3d51-4b7b-8cb1-3eb0cbe85d6f" />
 
