@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Roshambo Gam </title>
+
+    <link rel="stylesheet" href="../CSS/Roshambo.css">
+
+</head>
+<body>
+    
+    <div class="title" >Roshambo playGame</div>
+
+    <button  class="butt rock-mama" ><img src="../Emoji/rock-emoji.jpg" alt="" class="icon-img" ></button>
+    
+    <!-- onclick="playGame('Rock')" -->
+
+    <button  class="butt paper-mama" ><img src="../Emoji/paper-emoji.jpg" alt="" class="icon-img" ></button>
+
+    <!-- onclick="playGame('Paper')" -->
+
+    <button  class="butt scissors-mama" ><img src="../Emoji/scissors-emoji.jpg" alt="" class="icon-img" > </button> 
+
+    <!-- onclick="playGame('Scissors')" -->
+
+    <p class="rs-result result"></p><br>
+
+    <p class="rs-move"></p><br>
+
+    <p class="rs-score score"></p><br>
+    
+    <button onclick="
+    score.win = 0;
+    score.loss = 0;
+    score.tie = 0;
+    localStorage.removeItem('score');
+    updateScoreElement();
+    " class="reset-score" >Reset Score</button>
+
+    <button class="atpy" onclick="autoPlay()" >Auto Play</button>
+
+    <script src="../JavaScript/Roshambo.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(30, 29, 29);
+    color: white;
+    text-align: center;
+    font-family: Impact, 'Arial Narrow', sans-serif, serif;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: orange;
+    text-shadow: 2px 2px 4px #e01111;
+}
+
+.icon-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 300px;  
+}
+
+.rock-mama,
+.paper-mama,
+.scissors-mama {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.icon-img:hover {
+    transform: scale(1.2);
+}
+
+.result {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.rs-move {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.score {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.reset-score,
+.atpy {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset-score:hover,
+.atpy:hover {
+    background-color: darkorange;
+}
+
+.backtomainpage {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.backtomainpage:hover {
+    background-color: darkorange;
+}
+
+/* Roshambo CSS */
