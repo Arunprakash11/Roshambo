@@ -12,24 +12,28 @@
     
     <div class="title" >Roshambo GamePlay</div>
 
+        <!-- Rock -->
     <button  class="butt rock-mama" ><img src="../Emoji/rock-emoji.jpg" alt="" class="icon-img" ></button>
-    
-    <!-- onclick="playGame('Rock')" -->
+        <!-- onclick="playGame('Rock')" -->
 
+        <!-- Paper -->
     <button  class="butt paper-mama" ><img src="../Emoji/paper-emoji.jpg" alt="" class="icon-img" ></button>
+        <!-- onclick="playGame('Paper')" -->
 
-    <!-- onclick="playGame('Paper')" -->
-
+        <!-- Scissors -->
     <button  class="butt scissors-mama" ><img src="../Emoji/scissors-emoji.jpg" alt="" class="icon-img" > </button> 
+        <!-- onclick="playGame('Scissors')" -->
 
-    <!-- onclick="playGame('Scissors')" -->
-
+        <!-- Result -->
     <p class="rs-result result"></p><br>
 
+        <!--  -->
     <p class="rs-move"></p><br>
 
+        <!--  -->
     <p class="rs-score score"></p><br>
-    
+
+        <!-- To reset the scores -->
     <button onclick="
     score.win = 0;
     score.loss = 0;
@@ -38,8 +42,10 @@
     updateScoreElement();
     " class="reset-score" >Reset Score</button>
 
+        <!-- To auto play the game -->
     <button class="atpy" onclick="autoPlay()" >Auto Play</button>
 
+        <!-- Link the JavaScript file -->
     <script src="../JavaScript/Roshambo.js"></script>
     
 </body>
